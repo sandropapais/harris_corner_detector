@@ -102,7 +102,7 @@ void cornernessHarris()
     cv::namedWindow(windowName2, 5);
     cv::Mat visImage2 = img.clone();
     cv::drawKeypoints(img, keypoints, visImage2, cv::Scalar::all(-1), cv::DrawMatchesFlags::DRAW_RICH_KEYPOINTS);
-    cv::imshow(windowName2, visImage);
+    cv::imshow(windowName2, visImage2);
     cv::waitKey(0);
  
 
